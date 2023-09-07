@@ -1,0 +1,222 @@
+@keyframes animacao {
+    0% { opacity: 0; height: 0; }
+    50% { opacity: 1; height: auto; }
+    100% { opacity: 0; height: 0; }
+}
+@keyframes entradaT {
+    0% {margin-left: -100vh;}
+    100% {margin-left: 100px;}
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+/*TOPO DA PÁGINA*/
+header { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+    height: 650px;
+    width: 100%;
+    background-image: url(img/fundo1.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 650px;
+    box-shadow: inset 0px -40px 40px #e7e7e7;
+}
+
+header ul {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: flex-end;
+    margin-right: 2%;
+    margin-top: 1.5rem; 
+}
+
+.ListTop {
+    padding: 0.7rem;
+}
+#homeBTN {
+    border-bottom: 2px solid;
+}
+#contatoBTN{
+    color: darkorange;
+    border: solid 1px;
+    box-shadow: 1px 1px 1px #262650;
+    border-radius: 3px;
+    padding: 0.7rem;
+    background-color: darkorange;
+}
+
+#bars {
+    display: none;
+    border: solid 1px darkorange;
+    box-shadow: 1px 1px 1px #262650;
+    border-radius: 3px;
+    padding: 0.7rem;
+    background-color: darkorange;
+}
+
+.Infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 300px;
+    margin-left: 100px;
+    gap: 2rem;
+    animation-name: entradaT;
+    animation-duration: 2s;
+    animation-iteration-count: initial;
+
+}
+#Nome {
+    font-family: 'Press Start 2P', cursive;;
+    color: rgb(255, 0, 64);;
+}
+#cargo {
+    font-family: 'Press Start 2P', cursive;;
+    color: rgb(255, 0, 64);
+}
+#startBTN {
+    border: inset;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;;
+    color: rgb(255, 0, 64);
+    width: 90px;
+    cursor: pointer;
+    animation-name: animacao;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/*AREA SOBRE MIM*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e7e7;
+}
+#AreaSobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#AreaSobre h1 {
+    font-family: 'Phudu', cursive;
+    font-size: 70px;
+    margin-top: 3rem;
+    color: #262650;
+    border-bottom: 2px solid black;
+}
+
+#AreaSobre h2 {
+    font-family: 'Phudu', cursive;
+    color: #262650;
+}
+
+#AreaSobre p {
+    font-family: 'Open Sans', sans-serif;
+    color: #262650;
+}
+#InfoSobre {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+#InfoSobre li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#fotoPerfil {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    gap: 6rem;
+}
+
+#textSobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-top: 3rem;
+}
+
+.proxBTN {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-color: red;
+    box-shadow: -2px 2px 3px 0px;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+/*Area Skills*/
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #bbbbbb;
+    width: 100%;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+
+#skills h1 {
+    font-family: 'Phudu', cursive;
+    font-size: 60px;
+    margin-top: 3rem;
+    color: #262650;
+}
+
+#skillsList {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 65%;
+}
+
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: inset;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #777777;
+    z-index: 1;
+    gap: 1rem;
+    width: 220px;
+    height: 220px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.skillCard img {
+    margin-top: 20px;
+}
+
+.skillCard h2 {
+    color: #262650;
+}
+
+.skillCard p {
+    margin-bottom: 20px;
+    color: #262650;
+}
