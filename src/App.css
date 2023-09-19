@@ -226,6 +226,10 @@ main {
 
 /*Area Projetos*/
 
+:root{
+    --gradient: linear-gradient(to right, red, blue);
+}
+
 #areaProjetos {
     display: flex;
     flex-direction: column;
@@ -245,4 +249,35 @@ main {
     justify-content: flex-start;
     width: 500px;
     gap: 2.5rem;
+}
+
+.imgProjetos {
+    border-left: 7px outset red;
+}
+.BTNprojetos {
+    --border-width:1px;
+    --border-radius: 5px;
+    background: var(--gradient);
+    border: 0;
+    padding: 1rem 2rem;
+    position: relative;
+    border-radius: var(--border-radius);
+    z-index: 1;
+}
+
+.BTNprojetos::before{
+    content: '';
+    display: block;
+
+    width: calc(100% - calc(var(--border-width)*2));
+    height: calc(100% - calc(var(--border-width)*2));
+
+    background: #e7e7e7;
+    position: absolute;
+
+    top: var(--border-width);
+    left: var(--border-width);
+
+    border-radius: calc(var(--border-radius) - var(--border-width));
+    z-index: -1;
 }
