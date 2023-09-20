@@ -64,7 +64,7 @@ function Skills () {
                     </div>
                 </li>
             </ul>
-            <button className='proxBTN'>
+            <button className='proxBTN' id='BTNskill'>
                     <FontAwesomeIcon icon={faAnglesDown} fade />
             </button>
         </div>

@@ -224,6 +224,10 @@ main {
     color: #262650;
 }
 
+#BTNskill {
+    margin-bottom: 2rem;
+}
+
 /*Area Projetos*/
 
 :root{
@@ -235,34 +239,62 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 5rem;
+}
+
+#areaProjetos h1 {
+    font-family: 'Phudu', cursive;
+    font-size: 60px;
+    margin-top: 3rem;
+    color: #262650;
+}
+
+#areaProjetos h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#areaProjetos p {
+    font-family: 'Open Sans', sans-serif;
+    color: #262650;
+}
+
+.Ptec {
+    color: red;
 }
 
 #listaProjetos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 7rem;
 }
 
 .Projetos {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 500px;
+    width: 400px;
     gap: 2.5rem;
 }
 
 .imgProjetos {
     border-left: 7px outset red;
 }
+
+#imgSort{
+    height: 139px;
+}
+
 .BTNprojetos {
     --border-width:1px;
     --border-radius: 5px;
     background: var(--gradient);
     border: 0;
-    padding: 1rem 2rem;
+    padding: 0.7rem 2rem;
     position: relative;
     border-radius: var(--border-radius);
     z-index: 1;
+    cursor: pointer;
 }
 
 .BTNprojetos::before{
