@@ -187,26 +187,22 @@ main {
 
 #skillsList {
     display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    flex-wrap: wrap;
-    width: 65%;
+	overflow: outo;
+	scroll-snap-type: x mandatory;
+	padding: 10px;
+	gap: 2rem;
+	scroll-padding: 10px;
 }
 
 .skillCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: inset;
-    border-radius: 10px;
-    padding: 1rem;
-    background-color: #777777;
-    z-index: 1;
-    gap: 1rem;
-    width: 220px;
-    height: 220px;
-    font-family: 'Open Sans', sans-serif;
+    flex-direction: row;
+    flex: 0 0 100%;
+	scroll-snap-align: start;
+	scroll-snap-stop: always;
+    border: 4px inset;
+    border-radius: 20px;
+    width: 350px;
+    height: 450px;
 }
 
 .skillCard img {
