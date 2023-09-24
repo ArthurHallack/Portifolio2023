@@ -186,21 +186,28 @@ main {
 }
 
 #skillsList {
-    display: flex;
-	overflow: outo;
-	scroll-snap-type: x mandatory;
-	padding: 10px;
-	gap: 2rem;
-	scroll-padding: 10px;
+    --spacer: 2rem;
+    display: grid;
+    gap: var(--spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+
+    padding: 0 var(--spacer) var(--spacer);
+    scroll-snap-type: inline mandatory;
+    scroll-snap-align: start;
 }
 
 .skillCard {
     flex-direction: row;
+    padding: var(--size-3);
     flex: 0 0 100%;
 	scroll-snap-align: start;
 	scroll-snap-stop: always;
     border: 4px inset;
     border-radius: 20px;
+    box-shadow: var(--shadow-2);
     width: 350px;
     height: 450px;
 }
