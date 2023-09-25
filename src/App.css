@@ -186,9 +186,9 @@ main {
 }
 
 #skillsList {
-    --spacer: 2rem;
     display: grid;
-    gap: var(--spacer);
+    width: 80%;
+    gap: 50rem;
     grid-auto-flow: column;
     grid-auto-columns: 21%;
     overflow-x: auto;
@@ -200,20 +200,20 @@ main {
 }
 
 .skillCard {
+    display: flex;
     flex-direction: row;
     padding: var(--size-3);
     flex: 0 0 100%;
 	scroll-snap-align: start;
 	scroll-snap-stop: always;
-    border: 4px inset;
     border-radius: 20px;
-    box-shadow: var(--shadow-2);
     width: 350px;
-    height: 450px;
 }
 
 .skillCard img {
     margin-top: 20px;
+    border-left: 7px outset red;
+    padding: 0.5rem;
 }
 
 .skillCard h2 {
@@ -222,9 +222,14 @@ main {
 
 .skillCard p {
     display: flex;
-    text-align: center;
-    margin-bottom: 20px;
+    flex-direction: column;
     color: #262650;
+}
+
+.skillCardDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 #BTNskill {

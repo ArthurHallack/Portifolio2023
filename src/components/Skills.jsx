@@ -13,7 +13,7 @@ const estilo1 = {
 }
 
 const estilo2 = {
-    width: '48px'
+    width: '90px'
 }
 
 function Skills () {
@@ -23,9 +23,10 @@ function Skills () {
             <ul id='skillsList'>
                 <li>
                     <div className='skillCard'>
-                        <img src={htmlImg} alt="html" style={estilo2}/>
-                        <h2>HTML5</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis suscipit neque, asperiores, </p>
+                            <img src={htmlImg} alt="html" style={estilo2}/>
+                        <div className='skillCardDiv'>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis suscipit neque, asperiores, </p>
+                        </div>
                     </div>
                 </li>
                 <li>
