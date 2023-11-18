@@ -13,9 +13,6 @@ const estilo2 = {
     color: 'aliceblue'
 }
 
-const kashimoEstilo = {
-    height: '40.5rem'
-}
 //elementos js//
 const sobreBTN= window.document.getElementById('sobreBTN')
 const skillBTN= window.document.getElementById('skillBTN')
@@ -40,7 +37,7 @@ function Navbar () {
 function Infos () {
     return (
         <div className='Infos'>
-            <h1 id='Nome'>Arhur Hallack</h1>
+            <h1 id='Nome'>Arthur Hallack</h1>
             <h2 id='cargo'>Web Developer</h2>
             <ul className='BTNprojetos-container'>
                 <li><button className='BTNprojetos'><a href="https://github.com/ArthurHallack" target='_blank' className='TagsA'>Github</a></button></li>

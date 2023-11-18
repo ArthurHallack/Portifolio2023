@@ -18,7 +18,7 @@ function App() {
         <Projetos/>
       </main>
       <footer>
-
+        
       </footer>
 
     </div>

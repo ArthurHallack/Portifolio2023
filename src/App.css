@@ -86,12 +86,12 @@ header {
 
 #Nome {
     font-family: 'Phudu', cursive;
-    font-size: 60px;
+    font-size: 55px;
     color: rgb(255, 0, 0);
 }
 #cargo {
     font-family: 'Phudu', cursive;
-    color: rgb(0, 0, 0);
+    color: #262650;
 }
 #BTNtop1 {
     
@@ -118,7 +118,7 @@ main {
     font-size: 70px;
     margin-top: 3rem;
     color: #262650;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #262650;
 }
 
 #AreaSobre h2 {
@@ -329,4 +329,9 @@ main {
 
     border-radius: calc(var(--border-radius) - var(--border-width));
     z-index: -1;
+}
+
+/*footer*/
+
+footer {
 }
