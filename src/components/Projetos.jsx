@@ -15,7 +15,7 @@ function Projetos () {
                         <p>Uma lista de tarefas com tema de uma obra chamada Jujutsu Kaisen. Desenvolvida com o propósito de exercitar a implementação das funcionalidades de: Pesquisar, Filtrar, Adicionar, Editar e Deletar.</p>
                         <p className='Ptec'>Tecnologias utilizadas: Html5, Css3, Javascript.</p>
                         <div className='BTNprojetos-container'>
-                        <button className='BTNprojetos'>Visualizar</button>
+                        <button className='BTNprojetos'><a href="" className='TagsA'>Visualizar</a></button>
                         </div>
                     </div>
                 </li>
@@ -26,7 +26,7 @@ function Projetos () {
                         <p>Um projeto que visa criar um CRUD em php, e posteriormente utilizar os partipantes cadastrados para um sorteio simples de amigo secreto. Criado como parte do desafio Boostech.</p>
                         <p className='Ptec'>Tecnologias utilizadas: PHP, Laravel, Javascript.</p>
                         <div className='BTNprojetos-container'>
-                        <button className='BTNprojetos'>Visualizar</button>
+                        <button className='BTNprojetos'><a href="" className='TagsA'>Visualizar</a></button>
                         </div>
                     </div>
                  </li>

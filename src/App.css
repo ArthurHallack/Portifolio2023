@@ -5,7 +5,7 @@
 }
 @keyframes entradaT {
     0% {margin-left: -100vh;}
-    100% {margin-left: 70px;}
+    100% {margin-left: 67px;}
 }
 * {
     margin: 0%;
@@ -255,6 +255,7 @@ main {
     align-items: center;
     justify-content: center;
     gap: 5rem;
+    padding: 10px;
 }
 
 #areaProjetos h1 {
