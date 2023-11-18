@@ -27,7 +27,7 @@ function Navbar () {
         <div id='Navbar'>
             <nav id='Nav'>
                 <ul>
-                    <li><a href="" id='SobreBTN'>Sobre mim</a></li>
+                    <li><a href="#AreaSobre" id='SobreBTN'>Sobre mim</a></li>
                     <li><a href="" id='SkillsBTN'>Skills</a></li>
                     <li><a href="" id='ProjetosBTN'>Projetos</a></li>
                     <li><a href="" id='HomeBTN'>Home</a></li>
