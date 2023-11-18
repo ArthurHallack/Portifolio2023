@@ -1,5 +1,6 @@
 //importações//
 import React from 'react';
+import kashimoImg from '../img/kashimo.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 const Icon = <FontAwesomeIcon icon={faBars} />
@@ -11,6 +12,10 @@ const estilo1 = {
 const estilo2 = {
     color: 'aliceblue'
 }
+
+const kashimoEstilo = {
+    height: '40.5rem'
+}
 //elementos js//
 const sobreBTN= window.document.getElementById('sobreBTN')
 const skillBTN= window.document.getElementById('skillBTN')
@@ -19,15 +24,13 @@ const projetosBTN= window.document.getElementById('projetosBTN')
 //elementos para exprotação//
 function Navbar () {
     return (
-        <div>
-            <nav>
-                <ul className="navbar">
-                    <li id='homeBTN'  className='ListTop'><a href="" style={estilo1}>Home</a></li>
-                    <li className='ListTop' id='sobreBTN'><a href="" style={estilo1}>Sobre Mim</a></li>
-                    <li className='ListTop' id='skillBTN'><a href="" style={estilo1}>Skills</a></li>
-                    <li className='ListTop' id='projetosBTN'><a href="" style={estilo1}>Projetos e Experiencias</a></li>
-                    <li id='contatoBTN' className='ListTop'><a href="" style={estilo2}>Contatos</a></li>
-                    <li id='bars' style={estilo2}><FontAwesomeIcon icon={faBars} /></li>
+        <div id='Navbar'>
+            <nav id='Nav'>
+                <ul>
+                    <li><a href="" id='SobreBTN'>Sobre mim</a></li>
+                    <li><a href="" id='SkillsBTN'>Skills</a></li>
+                    <li><a href="" id='ProjetosBTN'>Projetos</a></li>
+                    <li><a href="" id='HomeBTN'>Home</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,9 +42,14 @@ function Infos () {
         <div className='Infos'>
             <h1 id='Nome'>Arhur Hallack</h1>
             <h2 id='cargo'>Web Developer</h2>
-            <h3><a href=""id='startBTN'>-Start-</a></h3>
+            <ul className='BTNprojetos-container'>
+                <li><button className='BTNprojetos'>START</button></li>
+                <li><button className='BTNprojetos'>Linkedin</button></li>
+            </ul>
         </div>
     )
 }
+
+
 
 export {Navbar, Infos} 

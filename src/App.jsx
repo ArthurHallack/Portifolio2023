@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Navbar, Infos } from './components/Top'
+import { Navbar, Infos} from './components/Top'
 import Sobre from './components/Sobre'
 import Skills from './components/Skills';
 import Projetos from './components/Projetos'

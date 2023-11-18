@@ -12,88 +12,74 @@
     padding: 0%;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 /*TOPO DA PÁGINA*/
-header { 
-    width: 100%;
+header {
     display: flex;
     flex-direction: column;
-    position: inherit;
     height: 650px;
-    width: 100%;
-    background-image: url(img/fundo1.gif);
+    background-image: url(img/kashimo.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 650px;
+    background-size: contain;
+    background-position: 100%;
     box-shadow: inset 0px -40px 40px #e7e7e7;
 }
 
-header ul {
-    font-family: 'Rubik', sans-serif;
+#Navbar {
     display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    justify-content: flex-end;
-    margin-right: 2%;
-    margin-top: 1.5rem; 
 }
 
-.ListTop {
-    padding: 0.7rem;
+#Navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 15px;
+    margin-left: 5rem;
 }
-#homeBTN {
-    border-bottom: 2px solid;
-}
-#contatoBTN{
-    color: darkorange;
+
+#HomeBTN {
+    color: #262650;
     border: solid 1px;
     box-shadow: 1px 1px 1px #262650;
     border-radius: 3px;
-    padding: 0.7rem;
-    background-color: darkorange;
-    cursor: pointer;
-}
-
-#bars {
-    display: none;
-    border: solid 1px darkorange;
-    box-shadow: 1px 1px 1px #262650;
-    border-radius: 3px;
-    padding: 0.7rem;
-    background-color: darkorange;
+    padding: 0.5rem;
+    background-color: rgb(202, 202, 202);
 }
 
 .Infos {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-top: 300px;
-    margin-left: 100px;
-    gap: 2rem;
+    justify-content: center;
+    margin-top: 15%;
+    margin-left: 10rem;
+    gap: 0.5rem;
     animation-name: entradaT;
     animation-duration: 2s;
     animation-iteration-count: initial;
-
 }
+
+.Infos ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
 #Nome {
-    font-family: 'Press Start 2P', cursive;;
-    color: rgb(255, 0, 64);;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 41px;
+    color: rgb(255, 0, 0);;
 }
 #cargo {
     font-family: 'Press Start 2P', cursive;;
-    color: rgb(255, 0, 64);
+    color: rgb(0, 0, 0);
 }
-#startBTN {
-    border: inset;
-    box-sizing: border-box;
-    font-family: 'Press Start 2P', cursive;;
-    color: rgb(255, 0, 64);
-    width: 90px;
-    cursor: pointer;
-    animation-name: animacao;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+#BTNtop1 {
+    
 }
+
+
 /*AREA SOBRE MIM*/
 main {
     display: flex;
