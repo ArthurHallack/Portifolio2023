@@ -27,10 +27,10 @@ function Navbar () {
         <div id='Navbar'>
             <nav id='Nav'>
                 <ul>
-                    <li><a href="#AreaSobre" id='SobreBTN'>Sobre mim</a></li>
-                    <li><a href="" id='SkillsBTN'>Skills</a></li>
-                    <li><a href="" id='ProjetosBTN'>Projetos</a></li>
-                    <li><a href="" id='HomeBTN'>Home</a></li>
+                    <li><a href="#AreaSobre" id='SobreBTN' className='TagsA'>Sobre mim</a></li>
+                    <li><a href="" id='SkillsBTN' className='TagsA'>Skills</a></li>
+                    <li><a href="" id='ProjetosBTN' className='TagsA'>Projetos</a></li>
+                    <li><a href="" id='HomeBTN' className='TagsA'>Home</a></li>
                 </ul>
             </nav>
         </div>
@@ -43,8 +43,8 @@ function Infos () {
             <h1 id='Nome'>Arhur Hallack</h1>
             <h2 id='cargo'>Web Developer</h2>
             <ul className='BTNprojetos-container'>
-                <li><button className='BTNprojetos'>START</button></li>
-                <li><button className='BTNprojetos'>Linkedin</button></li>
+                <li><button className='BTNprojetos'><a href="https://github.com/ArthurHallack" className='TagsA'>Github</a></button></li>
+                <li><button className='BTNprojetos'><a href="https://www.linkedin.com/in/arthurhallack/" className='TagsA'>Linkedin</a></button></li>
             </ul>
         </div>
     )

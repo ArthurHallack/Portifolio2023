@@ -26,6 +26,11 @@
     background: rgb(255, 0, 0);
 }
 
+.TagsA {
+    color:#262650;
+    font-family: 'Phudu', cursive;
+}
+
 /*TOPO DA PÁGINA*/
 header {
     display: flex;
@@ -48,7 +53,7 @@ header {
     justify-content: flex-start;
     gap: 2rem;
     margin-top: 20px;
-    margin-left: 3rem;
+    margin-left: 2rem;
     font-family: 'Phudu', cursive;
 }
 
@@ -65,7 +70,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 18%;
+    margin-top: 20%;
     margin-left: 5%;
     gap: 0.5rem;
     animation-name: entradaT;
@@ -80,12 +85,12 @@ header {
 }
 
 #Nome {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Phudu', cursive;
     font-size: 41px;
     color: rgb(255, 0, 0);
 }
 #cargo {
-    font-family: 'Press Start 2P', cursive;;
+    font-family: 'Phudu', cursive;
     color: rgb(0, 0, 0);
 }
 #BTNtop1 {
