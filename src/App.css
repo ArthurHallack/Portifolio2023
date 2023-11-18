@@ -37,6 +37,7 @@ header {
     gap: 2rem;
     margin-top: 20px;
     margin-left: 3rem;
+    font-family: 'Phudu', cursive;
 }
 
 #HomeBTN {
@@ -53,7 +54,7 @@ header {
     flex-direction: column;
     justify-content: center;
     margin-top: 18%;
-    margin-left: 8rem;
+    margin-left: 5%;
     gap: 0.5rem;
     animation-name: entradaT;
     animation-duration: 2s;
@@ -174,7 +175,7 @@ main {
 #skillsList {
     display: grid;
     width: 80%;
-    gap: 50rem;
+    gap: 40rem;
     grid-auto-flow: column;
     grid-auto-columns: 21%;
     overflow-x: auto;
@@ -183,6 +184,7 @@ main {
     padding: 0 var(--spacer) var(--spacer);
     scroll-snap-type: inline mandatory;
     scroll-snap-align: start;
+    scroll-behavior: smooth;
 }
 
 .skillCard {
@@ -192,14 +194,16 @@ main {
     flex: 0 0 100%;
 	scroll-snap-align: start;
 	scroll-snap-stop: always;
+    border: 1px solid;
     border-radius: 20px;
     width: 350px;
+    height: 500px;
 }
 
 .skillCard img {
     margin-top: 20px;
-    border-left: 7px outset red;
     padding: 0.5rem;
+    height: 60px;
 }
 
 .skillCard h2 {
