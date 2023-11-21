@@ -1,12 +1,20 @@
-@keyframes animacao {
-    0% { opacity: 0; height: 0; }
-    50% { opacity: 1; height: auto; }
-    100% { opacity: 0; height: 0; }
-}
 @keyframes entradaT {
     0% {margin-left: -100vh;}
     100% {margin-left: 67px;}
 }
+
+@keyframes animacaoImg {
+    10% {background-image: url(img/gojo.jpg);}
+    24% {background-image: url(img/gojo.jpg);}
+    25% {background-image: url(img/geto.jpg);}
+    59% {background-image: url(img/geto.jpg);}
+    60% {background-image: url(img/kashimo.jpg);}
+    79% {background-image: url(img/kashimo.jpg);}
+    80% {background-image: url(img/subuxa.jpg);}
+    95% {background-image: url(img/subuxa.jpg);}
+    100% {background-image: url(img/gojo.jpg);}
+}
+
 * {
     margin: 0%;
     padding: 0%;
@@ -36,11 +44,13 @@ header {
     display: flex;
     flex-direction: column;
     height: 650px;
-    background-image: url(img/kashimo.jpg);
+    background-image: url(img/gojo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 100%;
     box-shadow: inset 0px -40px 40px #e7e7e7;
+    animation: animacaoImg 60s infinite;
+    transition: backgroun-img 0.2s;
 }
 
 #Navbar {
@@ -93,9 +103,7 @@ header {
     font-family: 'Phudu', cursive;
     color: #262650;
 }
-#BTNtop1 {
-    
-}
+
 
 
 /*AREA SOBRE MIM*/
@@ -332,6 +340,3 @@ main {
 }
 
 /*footer*/
-
-footer {
-}
