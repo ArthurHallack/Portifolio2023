@@ -293,8 +293,6 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 7rem;
-    margin: 10px;
-    padding: 10px;
 }
 
 .Projetos {
@@ -303,7 +301,7 @@ main {
     justify-content: flex-start;
     width: 400px;
     gap: 2.5rem;
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
 }
 
