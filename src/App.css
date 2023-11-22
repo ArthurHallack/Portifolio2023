@@ -293,6 +293,8 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 7rem;
+    margin: 10px;
+    padding: 10px;
 }
 
 .Projetos {
