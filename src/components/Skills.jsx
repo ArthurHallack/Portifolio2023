@@ -18,56 +18,23 @@ const estilo2 = {
 
 function Skills () {
     return (
-        <div id='skills'>
-            <h1>Skills</h1>
-            <ul id='skillsList'>
-                <li>
-                    <div className='skillCard'>
-                            <img src={htmlImg} alt="html" style={estilo2}/>
-                        <div className='skillCardDiv'>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis suscipit neque, asperiores, </p>
+        <div id='slide-container'>
+            <div className='slide-content'>
+                <div className='card-wrapper'>
+                    <div className='card'>
+                        <div className='image-content'>
+                            <span className='over-lay'></span>
+                            <div className='card-image'>
+                                <img src={htmlImg} alt="html" className='card-img' />
+                            </div>
+                        </div>
+                        <div className='card-content'>
+                            <h2 className='name'>HTML5</h2>
+                            <p className='descricao'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque laborum harum voluptate quaerat placeat magnam, aut at aliquam tempora autem vel maiores nulla minus quasi odit modi ratione dicta!</p>
                         </div>
                     </div>
-                </li>
-                <li>
-                    <div className='skillCard'>
-                        <img src={cssImg} alt="css" style={estilo1}/>
-                        <h2>CSS3</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis suscipit neque, asperiores, </p>
-                    </div>
-                </li>    
-                <li>
-                    <div className='skillCard'>
-                        <img src={reactImg} alt="react" style={estilo1}/>
-                        <h2>React.js</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis suscipit neque, asperiores, </p>
-                    </div>
-                </li>
-                <li>
-                    <div className='skillCard'>
-                        <img src={nodeImg} alt="node" style={estilo1}/>
-                        <h2>Node.js</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis suscipit neque, asperiores, </p>
-                    </div>
-                </li>
-                <li>
-                    <div className='skillCard'>
-                        <img src={sqlImg} alt="sql" style={estilo1} />
-                        <h2>SQL</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis suscipit neque, asperiores, </p>
-                    </div>
-                </li>
-                <li>
-                    <div className='skillCard'>
-                        <img src={gitImg} alt="git" style={estilo1} />
-                        <h2>GIT</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis suscipit neque, asperiores, </p>
-                    </div>
-                </li>
-            </ul>
-            <button className='proxBTN' id='BTNskill'>
-                    <FontAwesomeIcon icon={faAnglesDown} fade />
-            </button>
+                </div>
+            </div>
         </div>
     )
 }

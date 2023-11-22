@@ -39,6 +39,14 @@
     font-family: 'Phudu', cursive;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /*TOPO DA PÁGINA*/
 header {
     display: flex;
@@ -180,76 +188,85 @@ main {
 
 /*Area Skills*/
 
-#skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #bbbbbb;
+.slide-container {
+    max-width: 1120px;
     width: 100%;
-    margin-top: 2rem;
-    gap: 3rem;
+    background-color: gray;
 }
 
-#skills h1 {
-    font-family: 'Phudu', cursive;
-    font-size: 60px;
-    margin-top: 3rem;
-    color: #262650;
+.slide-content {
+    margin: 0 40px;
 }
 
-#skillsList {
-    display: grid;
-    width: 80%;
-    gap: 40rem;
-    grid-auto-flow: column;
-    grid-auto-columns: 21%;
-    overflow-x: auto;
-    overscroll-behavior-inline: contain;
-
-    padding: 0 var(--spacer) var(--spacer);
-    scroll-snap-type: inline mandatory;
-    scroll-snap-align: start;
-    scroll-behavior: smooth;
+.card {
+    width: 320px;
+    border-radius: 25px;
+    background-color: #fff;
 }
-
-.skillCard {
-    display: flex;
-    flex-direction: row;
-    padding: var(--size-3);
-    flex: 0 0 100%;
-	scroll-snap-align: start;
-	scroll-snap-stop: always;
-    border: 1px solid;
-    border-radius: 20px;
-    width: 350px;
-    height: 500px;
-}
-
-.skillCard img {
-    margin-top: 20px;
-    padding: 0.5rem;
-    height: 60px;
-}
-
-.skillCard h2 {
-    color: #262650;
-}
-
-.skillCard p {
+.image-content,
+.card-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+}
+
+.over-lay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #262650;
+    border-radius: 25px 25px 0 25px;
+}
+.over-lay::before,
+.over-lay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #262650;
+}
+
+.over-lay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+}
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid red
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
     color: #262650;
 }
 
-.skillCardDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-#BTNskill {
-    margin-bottom: 2rem;
+.descricao {
+    font-size: 14px;
+    color: #262650;
+    text-align: center;
 }
 
 /*Area Projetos*/
