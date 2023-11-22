@@ -156,6 +156,7 @@ main {
     flex-direction: row;
     margin-top: 3rem;
     gap: 6rem;
+    flex-wrap: wrap;
 }
 
 #textSobre {
