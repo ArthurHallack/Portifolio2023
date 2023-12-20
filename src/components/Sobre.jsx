@@ -1,9 +1,5 @@
 import React from 'react';
 import euImg from '../img/eu.jpg'; 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAnglesDown } from '@fortawesome/free-solid-svg-icons'
-
-const icon = <FontAwesomeIcon icon={faAnglesDown} />
 
 const estiloIMG = {
     width: '17rem',
@@ -26,9 +22,7 @@ function Sobre () {
             </div>
             <div id='textSobre'>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aperiam rem sapiente reprehenderit molestiae sequi tempora nesciunt aut nobis aliquid quaerat ex magni consequuntur quia veniam obcaecati, maxime recusandae deserunt.</p>
-                <button className='proxBTN'>
-                    <FontAwesomeIcon icon={faAnglesDown} fade />
-                </button>
+                
             </div>
         </section>
     )

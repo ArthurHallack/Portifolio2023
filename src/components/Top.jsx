@@ -26,7 +26,7 @@ function Navbar () {
                 <ul>
                     <li><a href="#Navbar" id='HomeBTN' className='TagsA'>Home</a></li>
                     <li><a href="#AreaSobre" id='SobreBTN' className='TagsA'>Sobre mim</a></li>
-                    <li><a href="#skills" id='SkillsBTN' className='TagsA'>Skills</a></li>
+                    <li><a href="#SkillsArea" id='SkillsBTN' className='TagsA'>Skills</a></li>
                     <li><a href="#areaProjetos" id='ProjetosBTN' className='TagsA'>Projetos</a></li>
                 </ul>
             </nav>
