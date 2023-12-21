@@ -8,6 +8,7 @@ import gitImg from '../img/git.png'
 import codeImg from '../img/code.ico'
 import backImg from '../img/back.png'
 import javascriptImg from '../img/javascript.jpg'
+import devopsImg from '../img/devops.png'
 
 
 function Skills () {
@@ -46,12 +47,12 @@ function Skills () {
                             <div className='image-content'>
                                 <span className='over-lay'></span>
                                 <div className='card-image'>
-                                    <img src={htmlImg} alt="html" className='card-img' />
+                                    <img src={devopsImg} alt="html" className='card-img' />
                                 </div>
                             </div>
                             <div className='card-content'>
                                 <h2 className='name'>DEVOPS</h2>
-                                <p className='descricao'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque laborum harum voluptate quaerat placeat magnam, aut at aliquam tempora autem vel maiores nulla minus quasi odit modi ratione dicta!</p>
+                                <p className='descricao'>DevOps integra desenvolvimento e operações para colaboração eficiente. Automação, entrega contínua e monitoramento são essenciais, criando ambientes ágeis e eficientes.</p>
                             </div>
                         </div>
                 </li>
