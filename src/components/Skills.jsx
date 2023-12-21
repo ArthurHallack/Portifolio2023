@@ -7,6 +7,7 @@ import sqlImg from '../img/sql.png'
 import gitImg from '../img/git.png'
 import codeImg from '../img/code.ico'
 import backImg from '../img/back.png'
+import javascriptImg from '../img/javascript.jpg'
 
 
 function Skills () {
@@ -23,7 +24,7 @@ function Skills () {
                             </div>
                             <div className='card-content'>
                                 <h2 className='name'>FRONT END</h2>
-                                <p className='descricao'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque laborum harum voluptate quaerat placeat magnam, aut at aliquam tempora autem vel maiores nulla minus quasi odit modi ratione dicta!</p>
+                                <p className='descricao'>No front-end, damos vida à experiência do usuário com HTML, CSS e JavaScript, criando visuais intuitivos. Integrando designs de forma suave e otimizando o desempenho, buscamos tornar a interação agradável.</p>
                             </div>
                         </div>
                         </li>
@@ -36,7 +37,8 @@ function Skills () {
                             </div>
                             <div className='card-content'>
                                 <h2 className='name'>BACK END</h2>
-                                <p className='descricao'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque laborum harum voluptate quaerat placeat magnam, aut at aliquam tempora autem vel maiores nulla minus quasi odit modi ratione dicta!</p>
+                                <p className='descricao'>
+                                No back-end, gerenciamos lógica e dados da aplicação, assegurando funcionamento robusto, eficiente e seguro. Nos bastidores, nossa missão é construir a base sólida para uma experiência do usuário confiável.</p>
                             </div>
                         </div></li>
                 <li>
