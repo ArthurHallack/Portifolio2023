@@ -21,7 +21,7 @@ function Sobre () {
                 </ul>
             </div>
             <div id='textSobre'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aperiam rem sapiente reprehenderit molestiae sequi tempora nesciunt aut nobis aliquid quaerat ex magni consequuntur quia veniam obcaecati, maxime recusandae deserunt.</p>
+                <p>Como desenvolvedor web, minha paixão está em criar experiências online cativantes. Busco continuamente aprimorar meu conhecimento, comprometido em colaborar de maneira efetiva.</p>
                 
             </div>
         </section>
