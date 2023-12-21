@@ -5,6 +5,8 @@ import reactImg from '../img/react.png'
 import nodeImg from '../img/node.png'
 import sqlImg from '../img/sql.png'
 import gitImg from '../img/git.png'
+import codeImg from '../img/code.ico'
+import backImg from '../img/back.png'
 
 
 function Skills () {
@@ -16,7 +18,7 @@ function Skills () {
                             <div className='image-content'>
                                 <span className='over-lay'></span>
                                 <div className='card-image'>
-                                    <img src={htmlImg} alt="html" className='card-img' />
+                                    <img src={codeImg} alt="html" className='card-img' />
                                 </div>
                             </div>
                             <div className='card-content'>
@@ -29,7 +31,7 @@ function Skills () {
                             <div className='image-content'>
                                 <span className='over-lay'></span>
                                 <div className='card-image'>
-                                    <img src={htmlImg} alt="html" className='card-img' />
+                                    <img src={backImg} alt="html" className='card-img' />
                                 </div>
                             </div>
                             <div className='card-content'>
