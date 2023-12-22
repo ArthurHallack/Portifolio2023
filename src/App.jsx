@@ -19,10 +19,6 @@ function App() {
         <Skills/>
         <Projetos/>
       </main>
-      <footer>
-        
-      </footer>
-
     </div>
   )
 }
