@@ -165,6 +165,7 @@ main {
     margin-top: 3rem;
     gap: 6rem;
     flex-wrap: wrap;
+    padding-left: 5rem;
 }
 
 #textSobre {
@@ -362,7 +363,6 @@ main {
     position: relative;
     border-radius: var(--border-radius);
     z-index: 1;
-    cursor: pointer;
 }
 
 .BTNprojetos::before{
