@@ -5,8 +5,6 @@ import Skills from './components/Skills';
 import Projetos from './components/Projetos'
 import './App.css';
 
-
-
 function App() {
   return (
     <div>

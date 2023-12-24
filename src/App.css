@@ -293,6 +293,38 @@ main {
     font-family: 'Open Sans', sans-serif;
 }
 
+#modais {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+}
+
+.Modal {
+    position: absolute;
+    top: 180px;
+    left: 30rem;
+    right: 30rem;
+    bottom: 110px;
+    background-color: #e7e7e7;
+    border-radius: 25px;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(26, 26, 26, 0.329);
+  }
+
+  #listaModal {
+    display: flex;
+    flex-direction: row;
+  }
+
 /*Area Projetos*/
 
 :root{

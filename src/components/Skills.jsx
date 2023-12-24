@@ -9,9 +9,27 @@ import codeImg from '../img/code.ico'
 import backImg from '../img/back.png'
 import javascriptImg from '../img/javascript.jpg'
 import devopsImg from '../img/devops.png'
+import { useState } from 'react'
+import Modal from 'react-modal'
 
+//configs//
+Modal.setAppElement('#root')
+const styleModal = {
 
+}
+
+//component
 function Skills () {
+
+const [modalIsOpen, setIsOpen] = useState(false)
+const handleOpenModal = ()=>{
+    setIsOpen(true)
+}
+const handleCloseModal = ()=>{
+    setIsOpen(false)
+}
+
+
     return(
         <div id='SkillsArea'>
             <h1>Skills</h1>
@@ -57,6 +75,17 @@ function Skills () {
                         </div>
                 </li>
             </ul>
+            <button id='modais' onClick={handleOpenModal}>STACKS</button>
+            <Modal  isOpen={modalIsOpen}
+            onRequestClose={handleCloseModal}
+            className="Modal"
+           overlayClassName="Overlay" >
+                <ul id='listaModal'>
+                    <li>teste</li>
+                    <li>yosha</li>
+                    <li>mudada</li>
+                </ul>
+            </Modal>
         </div>                  
     )
 }
