@@ -34,7 +34,7 @@ const handleCloseModal = ()=>{
         <div id='SkillsArea'>
             <h1>Skills</h1>
             <ul id='SkillsList'>
-                <li><div className='card'>
+                <li onClick={handleOpenModal}><div className='card'>
                             <div className='image-content'>
                                 <span className='over-lay'></span>
                                 <div className='card-image'>
@@ -47,7 +47,7 @@ const handleCloseModal = ()=>{
                             </div>
                         </div>
                         </li>
-                <li><div className='card'>
+                <li onClick={handleOpenModal}><div className='card'>
                             <div className='image-content'>
                                 <span className='over-lay'></span>
                                 <div className='card-image'>
@@ -60,7 +60,7 @@ const handleCloseModal = ()=>{
                                 No back-end, gerenciamos lógica e dados da aplicação, assegurando funcionamento robusto, eficiente e seguro. Nos bastidores, nossa missão é construir a base sólida para uma experiência do usuário confiável.</p>
                             </div>
                         </div></li>
-                <li>
+                <li onClick={handleOpenModal}>
                 <div className='card'>
                             <div className='image-content'>
                                 <span className='over-lay'></span>
@@ -75,7 +75,6 @@ const handleCloseModal = ()=>{
                         </div>
                 </li>
             </ul>
-            <button id='modais' onClick={handleOpenModal}>STACKS</button>
             <Modal  isOpen={modalIsOpen}
             onRequestClose={handleCloseModal}
             className="Modal"
