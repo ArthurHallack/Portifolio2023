@@ -15,13 +15,13 @@ Este projeto trata de um portifólio pessoal e de caráter descontraido, que mos
 <table>
     <tr>
         <td>
-            PHP
+            Javascript
         </td>
         <td>
-            Laravel
+            React.js
         </td>
         <td>
-            MySql
+            ReactModal 
         </td>
         <td>
             HTML
