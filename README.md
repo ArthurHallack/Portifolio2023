@@ -35,10 +35,10 @@ Este projeto trata de um portifólio pessoal e de caráter descontraido, que mos
             ECMAScript 2021
         </td>
         <td>
-            10
+            18.2.0 
         </td>
         <td>
-            8
+            3.16.1
         </td>
         <td>
             5
