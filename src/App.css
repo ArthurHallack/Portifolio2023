@@ -91,6 +91,7 @@ header {
     margin-top: 20%;
     margin-left: 5%;
     gap: 1rem;
+    padding-left: 2rem;
     animation-name: entradaT;
     animation-duration: 2s;
     animation-iteration-count: initial;
@@ -319,6 +320,10 @@ main {
   #listaModal {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: 2.5rem;
+    width: 17rem;
   }
 
   #staksTitle {

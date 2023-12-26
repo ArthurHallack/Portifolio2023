@@ -15,7 +15,7 @@ import Modal from 'react-modal'
 //configs//
 Modal.setAppElement('#root')
 const styleIMG = {
-    height: '2rem'
+    height: '3rem'
 }
 
 //component
