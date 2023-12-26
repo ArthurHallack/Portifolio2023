@@ -8,4 +8,44 @@
 Este projeto trata de um portifólio pessoal e de caráter descontraido, que mostrar e demonstrar na prática minhas algumas das minhas habilidades em desenvolvimento de sofware, através da página em si e dos projetos descritos nela.
 
 ## Layout 🎨
+### layou inicial
 ![Captura de tela 2023-12-25 215852](https://github.com/ArthurHallack/exercicios-/assets/121068621/669748bd-8b9d-4e17-99a9-92b66d667163)
+
+### Técnologias utilizadas🛠
+<table>
+    <tr>
+        <td>
+            PHP
+        </td>
+        <td>
+            Laravel
+        </td>
+        <td>
+            MySql
+        </td>
+        <td>
+            HTML
+        </td>
+        <td>
+            CSS3
+        </td>
+    </td>
+    <tr>
+        <td>
+            8.*
+        </td>
+        <td>
+            10
+        </td>
+        <td>
+            8
+        </td>
+        <td>
+            5
+        </td>
+        <td>
+            3
+        </td>
+    </tr>
+
+</table>
