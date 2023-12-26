@@ -49,3 +49,9 @@ Este projeto trata de um portifólio pessoal e de caráter descontraido, que mos
     </tr>
 
 </table>
+
+<h1>Ultilitarios no desenvolvimento🔍 </h1>
+<ul>
+    <li>Visual Estudio Code
+    <li>vercel.app
+</ul>
