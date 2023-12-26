@@ -14,8 +14,8 @@ import Modal from 'react-modal'
 
 //configs//
 Modal.setAppElement('#root')
-const styleModal = {
-
+const styleIMG = {
+    height: '2rem'
 }
 
 //component
@@ -79,10 +79,15 @@ const handleCloseModal = ()=>{
             onRequestClose={handleCloseModal}
             className="Modal"
            overlayClassName="Overlay" >
+                <h1 id='staksTitle'>STACKS</h1>
                 <ul id='listaModal'>
-                    <li>teste</li>
-                    <li>yosha</li>
-                    <li>mudada</li>
+                    <li><img src={htmlImg} alt="html" style={styleIMG}/></li>
+                    <li><img src={cssImg} alt="css3" style={styleIMG}/></li>
+                    <li><img src={javascriptImg} alt="JS" style={styleIMG} /></li>
+                    <li><img src={reactImg} alt="react" style={styleIMG}/></li>
+                    <li><img src={nodeImg} alt="node" style={styleIMG} /></li>
+                    <li><img src={sqlImg} alt="sql" style={styleIMG}/></li>
+                    <li><img src={gitImg} alt="git" style={styleIMG} /></li>
                 </ul>
             </Modal>
         </div>                  
