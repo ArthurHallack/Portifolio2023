@@ -32,7 +32,7 @@ Este projeto trata de um portifólio pessoal e de caráter descontraido, que mos
     </td>
     <tr>
         <td>
-            8.*
+            ECMAScript 2021
         </td>
         <td>
             10
